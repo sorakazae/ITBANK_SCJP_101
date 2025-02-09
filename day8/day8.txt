@@ -1,0 +1,8 @@
+예외처리 catch블럭
+조상 예외 클래스의 catch블럭일 수록 밑에
+자손 예외 클래스의 catch블럭일 때 위에
+
+api docs에 exception의 조상에 runtime이 있으면 예외처리 안해도 된다.
+
+arrayList,linkedList,hashmap는 add와 get 전부 있지만 hashset은 add만 있기때문에 iterator를 이용해 get해야 함
+

@@ -1,0 +1,22 @@
+byte와 short형은 양수,음수 모두의 범위이고
+char는 양수의 범위이기 때문에
+byte,short 와 char은 자동 형 변환이 되지 않는다.
+강제 형 변환 해야 함
+
+int형 보다 작은 형(byte,char...)들로 연산을 하면 결과는 int이다
+
+
+
+영역선택 + ctrl + shift + /   =>   */... /*          (주석달기)
+
+ctrl + shift + f(자바)   =>  alt + f8(c언어)       (줄맞춤)
+
+등가비교 => 스위치문 사용(권장)
+
+sum += i     ==    sum=sum+1;
+
+
+반복문 안과 switch문 안에만 break를 쓸 수 있다.
+
+유니코드 unicode
+UTF-8  => 전세계 문자를 표현?

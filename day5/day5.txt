@@ -1,0 +1,28 @@
+생성자는 꼭 있어야 된다.
+static만 있을 경우에는 숨김
+
+this() 메서드는 생성자 메서드에서만 가능
+
+() 붙이면 메서드 안붙이면 변수로 인식 (보편적으로)
+
+맴버변수 = 필드
+
+메인은 반드시 static
+
+맴버변수는 자동초기화      지역변수는 아님
+
+instance변수는 거의 대부분 생성자로 초기화함
+
+static 변수는 명시적 초기화,초기화 블럭으로 초기화함
+
+docs\api\index.html
+자바의 기본적으로 필요한 api를 모아놓은 곳 java.lang
+
+java.lang에 있는 class 는 페키지명을 생략하고 쓸 수 있다.
+
+import는 class정의 하기 전에 와야 하고 패키지명 앞에 써야한다.
+
+class는 상속을 지정 해야 함 
+extends 'class이름'    모든 class는 Object class의 자손이 됨
+
+toString   객체에 대한 정보를 하나의 문자열로 출력
